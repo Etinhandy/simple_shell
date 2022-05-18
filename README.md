@@ -195,6 +195,7 @@ $ echo $NAME
 
 $
 ## Authors & Copyrights
-Etinosa Oyema <Etinosa>                                                               
+Etinosa Oyema <Etinosa>    
+James Efienemokwu <James>                                                           
 
 
