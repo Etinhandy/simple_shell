@@ -77,9 +77,9 @@ char *_strtok(char str[], const char *delim)
 	{
 		if (cmp_chars(str, delim))
 			return (NULL);
-		splitted = str; /*Store first address*/
+		splitted = str; /*Store the first address*/
 		i = _strlen(str);
-		str_end = &str[i]; /*Store last address*/
+		str_end = &str[i]; /*Store the last address*/
 	}
 	str_start = splitted;
 	if (str_start == str_end) /*Reaching the end*/
