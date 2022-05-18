@@ -90,7 +90,10 @@ length = _strlen(datash->av[0]) + _strlen(ver_str);
 length += _strlen(datash->args[0]) + 16;
 error = malloc(sizeof(char) * (length + 1));
 if (error == 0)
-{free(error);free(ver_str);return (NULL);
+{
+free(error);
+free(ver_str);
+return (NULL);
 }
 _strcpy(error, datash->av[0]);
 _strcat(error, ": ");
